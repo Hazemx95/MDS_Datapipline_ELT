@@ -1,0 +1,30 @@
+[0m23:03:02.650025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f597af38b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f597d33c470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f597cc11d90>]}
+
+
+============================== 23:03:02.653048 | 18f3c53e-ff13-4d6a-9be4-d67a23a5e92b ==============================
+[0m23:03:02.653048 [info ] [MainThread]: Running with dbt=1.9.4
+[0m23:03:02.653618 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/hazem/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init postgre_sliver', 'send_anonymous_usage_stats': 'True'}
+[0m23:03:02.660570 [debug] [MainThread]: Starter project path: /home/hazem/mds_datapipline_elt/scripts/pyspark-env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m23:03:02.663590 [info ] [MainThread]: 
+Your new dbt project "postgre_sliver" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:03:02.664216 [info ] [MainThread]: Setting up your profile.
+[0m23:04:45.933235 [info ] [MainThread]: Profile postgre_sliver written to /home/hazem/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:04:45.940653 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 103.328896, "process_in_blocks": "4040", "process_kernel_time": 0.078333, "process_mem_max_rss": "100148", "process_out_blocks": "80", "process_user_time": 0.917786}
+[0m23:04:45.941277 [debug] [MainThread]: Command `dbt init` succeeded at 23:04:45.941151 after 103.33 seconds
+[0m23:04:45.941756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f597d33c470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f597b1454f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f597b1bb110>]}
+[0m23:04:45.942172 [debug] [MainThread]: Flushing usage events
+[0m23:04:47.508308 [debug] [MainThread]: An error was encountered while trying to flush usage events
