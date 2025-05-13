@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: sliver_data
+    database: dwhsliver
+    schema: public 
+    tables:
+      - name: cust_info
+      - name: prd_info
+      - name: sales_info
+      - name: cust_gen
+      - name: cust_country
+      - name: cust_maintenance
+
+      
